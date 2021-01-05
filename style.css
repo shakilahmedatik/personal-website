@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #e7e7de;
+  background-color: #f3f3eb;
 }
 section {
   height: 500px;
@@ -10,6 +10,9 @@ section {
 .about-area {
   padding-bottom: 100px;
   background-color: #fff;
+}
+.about-me {
+  padding-top: 110px;
 }
 
 h1 {
@@ -53,6 +56,7 @@ p {
   text-align: center;
   margin: auto;
   width: 80%;
+  padding-bottom: 100px;
 }
 
 .quarter-width {
@@ -67,4 +71,44 @@ p {
 
 .quarter-width img {
   width: 100%;
+}
+
+.quiry-area {
+  margin: auto;
+  width: 70%;
+  background-image: url(images/work-inquiry.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  padding-bottom: 100px;
+}
+
+.small-width h1 {
+  color: white;
+}
+
+.small-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.work-heading {
+  padding-top: 50px;
+}
+
+.chat-btn {
+  padding-top: 110px;
+  text-align: right;
+}
+
+.chat-button {
+  text-decoration: none;
+  color: #0f3057;
+  background-image: linear-gradient(45deg, #ebf1f1, #dbe4ee);
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 35px #0f3057;
 }
