@@ -1,11 +1,13 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #e7e7de;
 }
 section {
   height: 500px;
-  padding-bottom: 150px;
+  /* padding-bottom: 50px; */
+}
+.about-area {
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -39,4 +41,13 @@ p {
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 5px;
+  box-shadow: 10px 10px 35px #0f3057;
+}
+.top-banner {
+  background-color: #e7e7de;
+}
+
+.showcase-area {
+  text-align: center;
+  background-color: #e7e7de;
 }
